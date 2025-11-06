@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Command Runner is up and running!");
+  res.send("service is runnig");
 });
 
 app.post("/", (req, res) => {
